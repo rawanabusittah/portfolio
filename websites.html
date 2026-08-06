@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web Development Projects - Rawan Omar's Portfolio"
+    />
+    <title>مواقع ويب | Rawan Omar - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css?v=20260806" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+Pro:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="loader"></div>
+    </div>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img src="images/programming.png" alt="Logo Icon" class="logo-icon" />
+          <span class="logo-text">Rawan Omar Abu Sitteh</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="websites.html" class="nav-link active">Websites</a></li>
+          <li>
+            <a href="data-analysis.html" class="nav-link">Data Analysis</a>
+          </li>
+          <li><a href="articles.html" class="nav-link">Articles</a></li>
+          <li>
+            <a href="presentations.html" class="nav-link">Presentations</a>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            href="index.html"
+            class="home-toggle"
+            aria-label="Home"
+            title="Home"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M3 10.5 12 3l9 7.5"></path>
+              <path d="M5 9.5V21h14V9.5"></path>
+            </svg>
+          </a>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle theme"
+          >
+            <svg
+              class="moon-icon"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+            </svg>
+            <svg
+              class="sun-icon"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-content">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">My Web Projects</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          A collection of web applications and websites I have designed and
+          developed, combining clean design with modern technologies.
+        </p>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/3.PNG" alt="CV" loading="lazy" />
+              <div class="project-overlay">
+                <p>Responsive website design</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>CV Builder Website</h3>
+              <p class="project-description">
+                A web-based application designed to simplify the process of
+                creating professional resumes. Users can easily input their
+                details, customize templates, and generate polished CVs in just
+                a few clicks.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/Update_CV/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="images/2.jpg" alt="Accessible Library" loading="lazy" />
+              <div class="project-overlay">
+                <p>AI-powered accessibility</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Digital Library</h3>
+              <p class="project-description">
+                An online library system that allows users to browse, borrow,
+                and manage books digitally. The platform provides a
+                user-friendly interface for accessing a wide collection of
+                titles anytime, anywhere.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <a
+                href="https://github.com/rawanabusittah/library"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/4.jpg" alt="plan your day" loading="lazy" />
+              <div class="project-overlay">
+                <p>Responsive website design</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Plan Your Day</h3>
+              <p class="project-description">
+                "Plan Your Day" is a modern platform offering 20 ready-to-use
+                plans across various fields, designed to help you organize your
+                time and achieve your goals effectively. With customizable
+                templates and user-friendly tools, it's your go-to solution for
+                a productive and balanced life.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/Plan_Your_Day/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image">
+              <img src="images/1.PNG" alt="Calculator App" loading="lazy" />
+              <div class="project-overlay">
+                <p>Interactive Website</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Simple Calculator</h3>
+              <p class="project-description">
+                A simple calculator website that performs basic arithmetic
+                operations such as addition, subtraction, multiplication, and
+                division. Designed with a clean interface for quick and
+                efficient calculations.
+              </p>
+              <div class="project-tags">
+                <span class="tag">JS</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">HTML 5</span>
+                <span class="tag">CSS</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/calculator/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+          <!-- Project 5 -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/5.PNG" alt="plan your day" loading="lazy" />
+              <div class="project-overlay">
+                <p>Responsive website design</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Hasibati</h3>
+              <p class="project-description">
+                A modern Arabic website featuring four core services: a
+                scientific calculator, a Syrian currency converter, a numeric
+                system converter (binary, decimal, octal, hexadecimal), and
+                geometry calculators for circles, squares, and rectangles. It
+                includes additional pages like "About Us", "Contact Us", and
+                "Services", with a responsive dark mode design and intuitive
+                user experience.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/Hasibati/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2026 Rawan Abu Sitteh. All rights reserved.</p>
+          <p>Crafted with <span class="heart">♥</span> by Rawan</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js?v=20260806"></script>
+  </body>
+</html>

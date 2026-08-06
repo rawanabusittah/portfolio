@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Articles & Technical Writing - Rawan Omar's Portfolio"
+    />
+    <title>مقالات | Rawan Omar - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css?v=20260806" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+Pro:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="loader"></div>
+    </div>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img src="images/programming.png" alt="Logo Icon" class="logo-icon" />
+          <span class="logo-text">Rawan Omar Abu Sitteh</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="websites.html" class="nav-link">Websites</a></li>
+          <li>
+            <a href="data-analysis.html" class="nav-link">Data Analysis</a>
+          </li>
+          <li><a href="articles.html" class="nav-link active">Articles</a></li>
+          <li>
+            <a href="presentations.html" class="nav-link">Presentations</a>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <a
+            href="index.html"
+            class="home-toggle"
+            aria-label="Home"
+            title="Home"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M3 10.5 12 3l9 7.5"></path>
+              <path d="M5 9.5V21h14V9.5"></path>
+            </svg>
+          </a>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle theme"
+          >
+            <svg
+              class="moon-icon"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+            </svg>
+            <svg
+              class="sun-icon"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-content">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">My Articles</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          A collection of articles across various topics and fields
+        </p>
+        <div class="articles-grid" id="articlesGrid">
+          <article class="article-card" data-article="article-1">
+            <div class="article-media">
+              <img
+                src="images/articles/article-1.jpg"
+                alt="توازن الحياة الرقمية"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="article-category">Life & Technology</span>
+              <div class="article-overlay">
+                <h3 class="article-title">
+                  توازن الحياة الرقمية: كيف أستفيد من التكنولوجيا بدون أن أسمح
+                  لها بأن تسرق وقتي؟
+                </h3>
+                <p class="article-title-en">
+                  Digital Life Balance: How to Use Technology Without Letting It
+                  Steal My Time
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card" data-article="article-2">
+            <div class="article-media">
+              <img
+                src="images/articles/article-2.jpg"
+                alt="كيف تصنع القراءة إنسانًا؟"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="article-category">Self-Development</span>
+              <div class="article-overlay">
+                <h3 class="article-title">كيف تصنع القراءة إنسانًا؟</h3>
+                <p class="article-title-en">How Does Reading Shape a Person?</p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card" data-article="article-3">
+            <div class="article-media">
+              <img
+                src="images/articles/article-3.png"
+                alt="هل سيلغي الذكاء الاصطناعي عمل البشر؟"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="article-category">AI & Technology</span>
+              <div class="article-overlay">
+                <h3 class="article-title">
+                  هل سيلغي الذكاء الاصطناعي عمل البشر؟
+                </h3>
+                <p class="article-title-en">
+                  Will Artificial Intelligence Replace Human Jobs?
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card" data-article="article-4">
+            <div class="article-media">
+              <img
+                src="images/articles/article-4.jpg"
+                alt="الاعتماد على الوجبات السريعة: راحة مؤقتة… أم ضررٌ مستمر؟"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="article-category">Health & social</span>
+              <div class="article-overlay">
+                <h3 class="article-title">
+                  الاعتماد على الوجبات السريعة: راحة مؤقتة… أم ضررٌ مستمر؟
+                </h3>
+                <p class="article-title-en">
+                  Relying on Fast Food: A Temporary Convenience… or Lasting
+                  Harm?
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card" data-article="article-5">
+            <div class="article-media">
+              <img
+                src="images/articles/article-5.png"
+                alt=" مزايا وعيوب الجمع بين الدراسة الجامعية والوظيفة"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="article-category">Academic & professional</span>
+              <div class="article-overlay">
+                <h3 class="article-title">
+                  مزايا وعيوب الجمع بين الدراسة الجامعية والوظيفة
+                </h3>
+                <p class="article-title-en">
+                  Pros and cons of combining college studies and work
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal"
+      id="articleModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="articleModalTitle"
+    >
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose" aria-label="Close article">
+          &times;
+        </button>
+        <div class="modal-article">
+          <span class="article-category" id="modalCategory"
+            >Life & Technology</span
+          >
+          <h2 id="articleModalTitle">
+            توازن الحياة الرقمية: كيف أستفيد من التكنولوجيا بدون أن أسمح لها بأن
+            تسرق وقتي؟
+          </h2>
+          <p class="article-title-en" id="modalSubtitle">
+            Digital Life Balance: How to Use Technology Without Letting It Steal
+            My Time
+          </p>
+          <div class="article-body" id="modalBody"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2026 Rawan Abu Sitteh. All rights reserved.</p>
+          <p>Crafted with <span class="heart">♥</span> by Rawan</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js?v=20260806"></script>
+  </body>
+</html>

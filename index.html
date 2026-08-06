@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Computer Engineer | Full-Stack Developer | AI Specialist - Rawan Omar's Portfolio"
+    />
+    <meta
+      name="keywords"
+      content="Web Development, AI, Computer Vision, Portfolio"
+    />
+    <title>Rawan Omar - Computer Engineer & Full-Stack Developer</title>
+    <link rel="stylesheet" href="css/styles.css?v=20260806" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+Pro:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="loader"></div>
+    </div>
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img src="images/programming.png" alt="Logo Icon" class="logo-icon" />
+          <span class="logo-text">My Portfolio</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="websites.html" class="nav-link">Websites</a></li>
+          <li>
+            <a href="data-analysis.html" class="nav-link">Data Analysis</a>
+          </li>
+          <li><a href="articles.html" class="nav-link">Articles</a></li>
+          <li>
+            <a href="presentations.html" class="nav-link">Presentations</a>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle theme"
+          >
+            <svg
+              class="moon-icon"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+            </svg>
+            <svg
+              class="sun-icon"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">
+              Hi, I'm <span class="gradient-text">Rawan Abu Sitteh</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+              Full Stack Developer | Computer Engineer | Academic Lecturer
+            </p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+              Full-Stack Developer & Computer Engineering Academic. I build
+              high-performance web apps, design university curricula, and mentor
+              junior developers. 4+ years with React, PHP, and Python
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+              <a href="mailto:rawanabusittah@gmail.com" class="btn btn-primary"
+                >Email</a
+              >
+              <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat" data-aos="fade-up" data-aos-delay="400">
+                <span class="stat-number">4+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat" data-aos="fade-up" data-aos-delay="500">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat" data-aos="fade-up" data-aos-delay="600">
+                <span class="stat-number">600+</span>
+                <span class="stat-label">Students Mentored</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+            <div class="image-wrapper">
+              <img
+                src="images/my.jpg"
+                alt="Rawan Omar Abu Sitteh"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Passionate about creating impactful digital solutions
+        </p>
+
+        <div class="about-grid">
+          <div class="about-content" data-aos="fade-right">
+            <h3>Who I Am</h3>
+            <p class="about-intro">
+              I am a results-driven Full Stack Developer and Computer
+              Engineering professional with 4+ years of experience designing,
+              developing, and deploying web applications using JavaScript, PHP,
+              Python, React, HTML, and CSS. I have a proven ability to build
+              accessible, user-centric digital solutions with a strong focus on
+              clean architecture and performance.
+            </p>
+            <p>
+              Alongside my development work, I’m also a university instructor
+              who has taught more than 600 students across multiple courses in
+              Artificial Intelligence, Computer Vision, Networks, Linux, and
+              Database Systems. I’ve produced over 25 practical educational
+              videos that helped increase student success rates from 78% to 91%.
+              I’m currently pursuing a Master’s degree in Computer Engineering
+              and Networks, combining academic depth with real-world engineering
+              practice.
+            </p>
+          </div>
+
+          <div class="about-expertise" data-aos="fade-left">
+            <div class="expertise">
+              <h4>Core Expertise</h4>
+              <ul class="expertise-list">
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span>Full-Stack Web Development.</span>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span>Artificial Intelligence & Machine Learning.</span>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span>Computer Vision & Image Processing.</span>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span>Responsive UI/UX Design.</span>
+                </li>
+
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span>Technical Mentoring & Teaching.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FEATURED PROJECTS SECTION
+         ============================================ -->
+    <section id="projects" class="portfolio">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          A selection of my recent web development work
+        </p>
+
+        <div class="portfolio-grid">
+          <!-- Project 1: CV Builder -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/3.PNG" alt="CV Builder Website" loading="lazy" />
+              <div class="project-overlay">
+                <p>Responsive website design</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>CV Builder Website</h3>
+              <p class="project-description">
+                A web-based application to create professional resumes: input
+                details, customize templates, and generate polished CVs in just
+                a few clicks.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/Update_CV/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 2: Digital Library -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="images/2.jpg" alt="Digital Library" loading="lazy" />
+              <div class="project-overlay">
+                <p>AI-powered accessibility</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Digital Library</h3>
+              <p class="project-description">
+                An online library system hosting 1,000+ books with AI-powered
+                summarization and voice/head-movement controls for accessible
+                browsing.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <a
+                href="https://github.com/rawanabusittah/library"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 3: Plan Your Day -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/4.jpg" alt="Plan Your Day" loading="lazy" />
+              <div class="project-overlay">
+                <p>Responsive website design</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Plan Your Day</h3>
+              <p class="project-description">
+                An Arabic-language daily and weekly planner with 20 customizable
+                templates, drag-and-drop task management, and PDF export.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/Plan_Your_Day/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+
+          <!-- Project 4: Hasibati -->
+          <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image">
+              <img src="images/5.PNG" alt="Hasibati" loading="lazy" />
+              <div class="project-overlay">
+                <p>Responsive website design</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Hasibati</h3>
+              <p class="project-description">
+                A modern Arabic website with a scientific calculator, Syrian
+                currency converter, numeric system converter, and geometry tools
+                — with dark mode and an intuitive UX.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://rawanabusittah.github.io/Hasibati/"
+                class="project-link"
+                >View Project →</a
+              >
+            </div>
+          </article>
+        </div>
+
+        <div class="portfolio-more" data-aos="fade-up" data-aos-delay="200">
+          <a href="websites.html" class="btn btn-primary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         EXPERIENCE & EDUCATION SECTION
+         ============================================ -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Experience & Education</h2>
+
+        <div class="experience-grid">
+          <div class="experience-column">
+            <h3>Work Experience</h3>
+            <div class="timeline">
+              <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>Software Developer</h4>
+                  <p class="role">Arab International University (AIU)</p>
+                  <p class="date">04/2026 - 08/2026</p>
+                  <p>
+                    Develop and maintain university-wide web portals and
+                    internal software systems serving hundreds of students and
+                    staff.
+                  </p>
+                  <p>
+                    Collaborate with cross-functional teams (academic advisors,
+                    IT operations, finance) to gather requirements and deliver
+                    scalable, maintainable solutions within agile sprints.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="timeline-item"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>University Lecturer</h4>
+                  <p class="role">Arab International University (AIU)</p>
+                  <p class="date">2024 - 2026</p>
+                  <p>
+                    Taught the Computer Skills course to 600+ students across 5
+                    semesters, covering word processing, spreadsheets,
+                    presentations, and internet fundamentals.
+                  </p>
+                  <p>
+                    Designed and produced a library of 25 educational videos
+                    (screencasts with step-by-step practical demonstrations),
+                    contributing to raising the course pass rate from 78% to
+                    91%.
+                  </p>
+                  <p>
+                    Developed semester plans and practical, skills-based
+                    examinations emphasizing hands-on, applied competency over
+                    rote memorization.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="timeline-item"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>University Lecturer</h4>
+                  <p class="role">
+                    Damascus University - Computer Engineering and Automation
+                  </p>
+                  <p class="date">2023 - 2025</p>
+                  <p>
+                    Instructed 5 lab courses covering Linux OS, Artificial
+                    Intelligence (Python & Prolog), Network Programming,
+                    Computer Vision (OpenCV), and SQL Database design.
+                  </p>
+                  <p>
+                    Guided students through hands-on implementation of network
+                    protocols, image processing pipelines, and database schemas.
+                  </p>
+                  <p>
+                    Produced lab documentation and assessment materials adopted
+                    across multiple student cohorts.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="timeline-item"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>Front-end Developer</h4>
+                  <p class="role">Remote</p>
+                  <p class="date">2020 - 2023</p>
+                  <p>
+                    Delivered 12 front-end projects for clients in the
+                    restaurant, hotel, and professional office sectors, building
+                    responsive, brand-consistent websites using HTML5, CSS3,
+                    JavaScript, and React.
+                  </p>
+                  <p>
+                    Implemented performance enhancements including lazy loading,
+                    image optimization, and code splitting, improving Lighthouse
+                    performance scores by 40% (from 62 to 87).
+                  </p>
+                  <p>
+                    Ensured fully responsive layouts across all screen sizes
+                    (mobile, tablet, desktop) using CSS Flexbox, Grid, and media
+                    queries.
+                  </p>
+                  <p>
+                    Maintained clean, modular, and reusable component structures
+                    following React best practices (props, component-level state
+                    management, and lifecycle methods).
+                  </p>
+                  <p>
+                    Collaborated with design teams and clients to refine visual
+                    details, iterate on feedback, and ensure brand consistency
+                    across all pages.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="timeline-item"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>Article Proofreader & Technical Writer</h4>
+                  <p class="role">Remote</p>
+                  <p class="date">2018 - 2023</p>
+                  <p>
+                    Proofread and authored 200+ technical and cultural articles
+                    for online publications, maintaining high editorial
+                    standards (grammar, style, factual accuracy).
+                  </p>
+                  <p>
+                    Translated complex technical content (AI, networking,
+                    programming tutorials) into accessible Arabic and English
+                    for non-specialist audiences.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="timeline-item"
+                data-aos="fade-right"
+                data-aos-delay="500"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>Audio Transcription</h4>
+                  <p class="role">Remote</p>
+                  <p class="date">2018 - 2021</p>
+                  <p>
+                    Transcribed 150+ hours of audio content (interviews,
+                    lectures, podcasts) to text with 99% accuracy, adhering to
+                    strict turnaround deadlines.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-column">
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>Master's Degree</h4>
+                  <p class="role">Damascus University - Syria</p>
+                  <p class="date">2023 - Present</p>
+                  <p>Computer Engineering & Networks</p>
+                </div>
+              </div>
+
+              <div
+                class="timeline-item"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              >
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h4>Bachelor's Degree</h4>
+                  <p class="role">Damascus University - Damascus, Syria</p>
+                  <p class="date">2018 - 2023</p>
+                  <p>Computer Engineering & Automation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION
+         ============================================ -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Proficient in modern technologies and frameworks
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+            <h3>Front-End Development</h3>
+            <div class="skill-items">
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">React</span>
+              <span class="skill-badge">Responsive Design</span>
+              <span class="skill-badge">UI/UX</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="150">
+            <h3>Back-End Development</h3>
+            <div class="skill-items">
+              <span class="skill-badge">PHP</span>
+              <span class="skill-badge">RESTful APIs</span>
+              <span class="skill-badge">Database Integration</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+            <h3>Databases</h3>
+            <div class="skill-items">
+              <span class="skill-badge">SQL</span>
+              <span class="skill-badge">Database Design</span>
+              <span class="skill-badge">Database Management</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="250">
+            <h3>Programming Languages</h3>
+            <div class="skill-items">
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">PHP</span>
+              <span class="skill-badge">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="150">
+            <h3>Tools & Platforms</h3>
+            <div class="skill-items">
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">OpenCV</span>
+              <span class="skill-badge">Linux (CLI)</span>
+              <span class="skill-badge">Word</span>
+              <span class="skill-badge">Excel</span>
+              <span class="skill-badge">PowerPoint</span>
+            </div>
+          </div>
+
+          <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+            <h3>Concepts</h3>
+            <div class="skill-items">
+              <span class="skill-badge">OOP</span>
+              <span class="skill-badge">Accessibility (WCAG)</span>
+              <span class="skill-badge">AI Integration</span>
+              <span class="skill-badge">Computer Vision</span>
+              <span class="skill-badge">Network Protocols</span>
+              <span class="skill-badge">Agile Methodologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+     CERTIFICATIONS SECTION
+     ============================================ -->
+    <section id="certifications" class="certifications">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">
+          Certifications & Courses
+        </h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="70">
+          Continuous learning and exploration in technology & skills
+        </p>
+        <div class="certifications-grid">
+          <!-- Certification Card 1 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="cert-title">
+              <a
+                href="certificates/AI%20for%20HR.pdf"
+                target="_blank"
+                rel="noopener"
+                >AI for HR</a
+              >
+            </div>
+            <div class="cert-issuer">AI Business School</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 2 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="120">
+            <div class="cert-title">
+              <a
+                href="certificates/AI%20For%20Everyone.pdf"
+                target="_blank"
+                rel="noopener"
+                >AI For Everyone</a
+              >
+            </div>
+            <div class="cert-issuer">DeepLearning.AI</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 3 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="140">
+            <div class="cert-title">
+              <a
+                href="certificates/AI%20agents%20and%20creator%20tools%20for%20HR%20professionals.pdf"
+                target="_blank"
+                rel="noopener"
+                >AI agents and creator tools for HR professionals</a
+              >
+            </div>
+            <div class="cert-issuer">AI Business School</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 4 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="cert-title">
+              <a
+                href="certificates/Agile%20Project%20Management.pdf"
+                target="_blank"
+                rel="noopener"
+                >Agile Project Management</a
+              >
+            </div>
+            <div class="cert-issuer">Certification</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 5 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="180">
+            <div class="cert-title">
+              <a
+                href="certificates/Graphic%20Design.pdf"
+                target="_blank"
+                rel="noopener"
+                >Graphic Design</a
+              >
+            </div>
+            <div class="cert-issuer">Adobe</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 6 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="cert-title">
+              <a
+                href="certificates/HTML,%20CSS%20and%20Javascript%20for%20Web%20Developers.pdf"
+                target="_blank"
+                rel="noopener"
+                >HTML, CSS, and JavaScript for Web Developers</a
+              >
+            </div>
+            <div class="cert-issuer">Johns Hopkins University</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 7 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="220">
+            <div class="cert-title">
+              <a href="certificates/ICDL.pdf" target="_blank" rel="noopener"
+                >ICDL</a
+              >
+            </div>
+            <div class="cert-issuer">
+              Institut European Cooperation Development
+            </div>
+            <div class="cert-date">2020</div>
+          </div>
+          <!-- Certification Card 8 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="240">
+            <div class="cert-title">
+              <a
+                href="certificates/Image%20Editing.pdf"
+                target="_blank"
+                rel="noopener"
+                >Image Editing</a
+              >
+            </div>
+            <div class="cert-issuer">Adobe</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 9 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="260">
+            <div class="cert-title">
+              <a
+                href="certificates/Introduction%20to%20Front_End%20Development.pdf"
+                target="_blank"
+                rel="noopener"
+                >Introduction to Front-End Development</a
+              >
+            </div>
+            <div class="cert-issuer">Meta</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 10 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="280">
+            <div class="cert-title">
+              <a
+                href="certificates/Leadership%20Skills.pdf"
+                target="_blank"
+                rel="noopener"
+                >Leadership Skills</a
+              >
+            </div>
+            <div class="cert-issuer">IIM Ahmedabad</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 11 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cert-title">
+              <a
+                href="certificates/Mathematics%20for%20Machine%20Learning.pdf"
+                target="_blank"
+                rel="noopener"
+                >Mathematics for Machine Learning: Linear Algebra</a
+              >
+            </div>
+            <div class="cert-issuer">Imperial College London</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 12 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="320">
+            <div class="cert-title">
+              <a
+                href="certificates/Programming%20for%20Everybody_%20Getting%20Started%20with%20Python.pdf"
+                target="_blank"
+                rel="noopener"
+                >Programming for Everybody (Getting Started with Python)</a
+              >
+            </div>
+            <div class="cert-issuer">University of Michigan</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 13 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="340">
+            <div class="cert-title">
+              <a
+                href="certificates/Python%20Data%20Structures.pdf"
+                target="_blank"
+                rel="noopener"
+                >Python Data Structures</a
+              >
+            </div>
+            <div class="cert-issuer">University of Michigan</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 14 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="360">
+            <div class="cert-title">
+              <a
+                href="certificates/Work%20Smarter%20with%20Microsoft%20PowerPoint.pdf"
+                target="_blank"
+                rel="noopener"
+                >Work Smarter with Microsoft PowerPoint</a
+              >
+            </div>
+            <div class="cert-issuer">Microsoft</div>
+            <div class="cert-date">2026</div>
+          </div>
+          <!-- Certification Card 15 -->
+          <div class="cert-card" data-aos="fade-up" data-aos-delay="380">
+            <div class="cert-title">
+              <a
+                href="certificates/Work%20Smarter%20with%20Microsoft%20Word.pdf"
+                target="_blank"
+                rel="noopener"
+                >Work Smarter with Microsoft Word</a
+              >
+            </div>
+            <div class="cert-issuer">Microsoft</div>
+            <div class="cert-date">2026</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+         ============================================ -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+          Let's collaborate on something amazing
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info" data-aos="fade-right">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <a href="mailto:rawanabusittah@gmail.com"
+                >rawanabusittah@gmail.com</a
+              >
+            </div>
+
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <a href="tel:+963995858413">+963 995858413</a>
+            </div>
+
+            <div class="contact-item">
+              <h3>Location</h3>
+              <p>Damascus Suburb, Syria</p>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/rawan-abu-sittah"
+                class="social-link"
+                title="LinkedIn"
+                >in</a
+              >
+              <a
+                href="https://github.com/rawanabusittah"
+                class="social-link"
+                title="GitHub"
+                >gh</a
+              >
+              <a
+                href="https://www.instagram.com/rawanomar46?igsh=MWZoc2hrYWtjNnV1Zw=="
+                class="social-link"
+                title="Instagram"
+                >In</a
+              >
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" data-aos="fade-left">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+                aria-label="Your Name"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+                aria-label="Your Email"
+              />
+            </div>
+
+            <div class="form-group">
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+                aria-label="Your Message"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2026 Rawan Abu Sitteh. All rights reserved.</p>
+          <p>Crafted with <span class="heart">♥</span> by Rawan</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js?v=20260806"></script>
+  </body>
+</html>
